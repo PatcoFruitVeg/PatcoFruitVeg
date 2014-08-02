@@ -8,3 +8,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53461628-1', 'auto');
 ga('send', 'pageview');
 
+$('body').scrollspy({ target: '#bs-example-navbar-collapse-1', offset: 70 });
+
+function scrollToSection(section) {
+  event.preventDefault();
+  $('body').animate({scrollTop: $('#' + section).offset().top - 60 });
+}
