@@ -50,6 +50,7 @@ footer {
 
 .footer > li:last-child {
   text-align: right;
+  text-transform: uppercase;
 }
 
 @media (max-width: 480px) {
