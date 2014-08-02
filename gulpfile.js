@@ -39,7 +39,6 @@ gulp.task('index:lr', function() {
 gulp.task('index', function() {
   return gulp.src(globs.jade)
     .pipe(jadeTasks())
-    .pipe(embedlr())
     .pipe(gulp.dest('./'));
 });
 
