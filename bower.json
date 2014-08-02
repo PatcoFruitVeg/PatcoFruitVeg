@@ -1,0 +1,19 @@
+{
+  "name": "PatcoFruitVeg",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A website for a shop that sells fruits, vegetables, sweets, and groceries.",
+  "homepage": "http://www.patcofruitveg.com/",
+  "author": "Parin Parikh <hi@parinparikh.com> (http://www.parinparikh.com/)",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0"
+  }
+}
