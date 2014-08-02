@@ -2,25 +2,25 @@ body {
   padding-top: 70px;
 }
 
-#footer > li {
+.footer > li {
   width: 50%;
   padding-bottom: 10px;
 }
 
-#footer > li:first-child {
+.footer > li:first-child {
   text-align: left;
 }
 
-#footer > li:last-child {
+.footer > li:last-child {
   text-align: right;
 }
 
 @media (max-width: 480px) {
-  #footer > li {
+  .footer > li {
     width: 100%;
   }
 
-  #footer > li:first-child, #footer > li:last-child {
+  .footer > li:first-child, .footer > li:last-child {
     text-align: center;
   }
 }

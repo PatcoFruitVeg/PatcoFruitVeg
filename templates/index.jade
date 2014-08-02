@@ -1,4 +1,3 @@
-//- replace http:// with // after its uploaded and replace google analytics id
 doctype html
 html(lang="en")
   head
@@ -9,17 +8,17 @@ html(lang="en")
     title Patco Fruits and Vegetables
     meta(name="description", value="")
 
-    link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css")
+    link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css")
     link(rel="stylesheet", href="css/main.css")
 
   body
-    include templates/header
+    include header
 
-    include templates/content
+    include content
 
-    include templates/footer
+    include footer
 
-    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
-    script window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
-    script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+    script window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')
+    script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
     script(src="js/main.js")
