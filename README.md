@@ -1,4 +1,4 @@
-Patco Fruit and Vegetables
+Patco Fruit and Vegetable
 ==========================
 
 This branch is used only for development.
