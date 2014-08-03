@@ -4,13 +4,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-brand {
-  color: #1dd2af !important;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 22px;
-}
-
 .navbar-default {
   background-color: rgb(246, 248, 248);
 }
@@ -20,17 +13,23 @@ body {
   padding-bottom: 20px;
 }
 
-.navbar-nav li > a {
-  font-weight: 500;
+.navbar-brand, .navbar-nav li > a {
   letter-spacing: 2px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
 }
 
-.navbar-nav .active > a {
-  background-color: #1dd2af !important;
+.navbar-brand, .navbar-nav .active > a {
+  background-color: rgb(99, 148, 113) !important;
   color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 48px;
+  padding: 15px 8px;
 }
 
 footer {
@@ -40,7 +39,9 @@ footer {
 }
 
 footer a:link {
-  color: #1dd2af;
+  color: rgb(99, 148, 113);
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
 }
 
 .footer > li {
