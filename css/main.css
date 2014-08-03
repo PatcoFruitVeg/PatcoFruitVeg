@@ -67,3 +67,9 @@ footer a:link {
     text-align: center;
   }
 }
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
