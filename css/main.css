@@ -37,6 +37,12 @@ body {
 
 footer {
   padding-top: 18px;
+  background-color: rgb(246, 248, 248);
+  border-top: 1px solid rgb(231, 231, 231);
+}
+
+footer a:link {
+  color: #1dd2af;
 }
 
 .footer > li {
