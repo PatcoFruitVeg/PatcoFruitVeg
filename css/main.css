@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-a.navbar-brand {
+.navbar-brand {
   color: #1dd2af !important;
   font-weight: bold;
   letter-spacing: 1px;
@@ -14,7 +14,7 @@ a.navbar-brand {
 }
 
 .navbar-default {
-  background-color: rgba(246, 248, 248);
+  background-color: rgb(246, 248, 248);
 }
 
 .navbar-default > .container {
@@ -30,7 +30,7 @@ a.navbar-brand {
   border-radius: 5px;
 }
 
-.navbar-nav li.active > a {
+.navbar-nav .active > a {
   background-color: #1dd2af !important;
   color: #fff !important;
 }
