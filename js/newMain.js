@@ -1,1 +1,1 @@
-"use strict";$(function(){var a=new Image;a.src="/img/bg.png",a.onload=function(){$("body").addClass("cover"),$(".container").removeClass("none");var a=$("#logo"),n=$("#contact");a.addClass("animated bounceIn"),n.addClass("animated fadeIn")}});
+"use strict";$(function(){var a=$("<img>").attr("src","/img/bg.png");a.load(function(){$("body").addClass("cover"),$(".container").removeClass("none");var a=$("#logo"),n=$("#contact");a.addClass("animated bounceIn"),n.addClass("animated fadeIn")})});
