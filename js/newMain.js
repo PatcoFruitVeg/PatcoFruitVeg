@@ -1,10 +1,9 @@
 'use strict';
 
 $(function() {
-  var background = new Image();
-  background.src = '/img/bg.png';
+  var background = $('<img>').attr('src', '/img/bg.png');
 
-  background.onload = function() {
+  background.load(function() {
     $('body').addClass('cover');
     $('.container').removeClass('none');
 
@@ -13,5 +12,5 @@ $(function() {
 
     logo.addClass('animated bounceIn');
     contact.addClass('animated fadeIn');
-  };
+  });
 });
