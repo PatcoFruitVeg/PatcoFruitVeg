@@ -25,7 +25,9 @@ var globs = {
   js: './js/**/*.js',
   img: './img/**/*.{png,gif,jpg,jpeg}',
 
-  dest: './dist/'
+  dest: './dist/',
+
+  bootstrap: '!./css/bootstrap.css'
 };
 
 // tasks
@@ -86,7 +88,7 @@ gulp.task('build', ['index'], function() {
 });
 
 gulp.task('lint', ['lint:js'], function() {
-  return gulp.src(globs.css)
+  return gulp.src([globs.css, globs.bootstrap])
     .pipe(cssTasks());
 });
 
