@@ -1,34 +1,38 @@
 .container
   .row
-    div.col-md-12.text-center Get in touch
+    .col-md-12.title Contact Us
 
+  br
+
+  .row
     iframe.col-md-8(width="100%", height="300px", frameborder="0", style="border:0", src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBaApU68IQP5wsibXLgXHzRHvN1VAMjL7E&q=374 Romford Road+Forest Gate+London+E7 8BS")
 
     .col-md-4
       .row
         .col-xs-6
-          div Address
-          div 374 Romford Road
-          div Forest Gate
-          div London
-          div E7 8BS
+          .sub-title Address
+          .address.mt5 374 Romford Road
+          .address Forest Gate
+          .address London
+          .address E7 8BS
 
         .col-xs-6
-          div Opening Times
+          div.sub-title Opening Times
 
-          div
-            .row
-              .col-md-5 Mon - Sat
-              .col-md-7 10:00 - 21:00
+          .ot-day.mt5 Mon - Sat
+          .ot-time 10:00 - 21:00
 
-          div
-            .row
-              .col-md-5 Sun
-              .col-md-7 10:00 - 19:00
+          .ot-day Sun
+          .ot-time 10:00 - 19:00
 
       br
 
-      div Phone: <a href="tel:+442085527314">(+44) 02085527314</a>
-      div Email: <a href="mailto:info@patcofruitveg.com">info@patcofruitveg.com</a>
+      .additional-info
+        div Phone
+        div: a(href="tel:+442085527314") (+44) 02085527314
 
-br
+      br
+
+      .additional-info
+        div Email
+        div: a.smallcase(href="mailto:info@patcofruitveg.com") info@patcofruitveg.com

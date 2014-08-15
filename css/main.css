@@ -1,11 +1,33 @@
 body {
-  padding-top: 110px;
+  padding-top: 91px;
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  background: url('/img/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link {
+  color: rgb(99, 148, 113);
+}
+
+.smallcase {
+  text-transform: lowercase;
+}
+
+#home .container {
+  padding-bottom: 250px
 }
 
 .navbar-default {
   background-color: rgb(246, 248, 248);
+  margin-bottom: 0;
 }
 
 .navbar-default > .container {
@@ -32,6 +54,44 @@ body {
   padding: 15px 8px;
 }
 
+.navbar-header {
+  margin-left: 15px !important;
+}
+
+.products img {
+  width: 70%;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.sub-title, .additional-info > div:first-child {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.address, .ot-time, .additional-info > div:last-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Arial';
+}
+
+.ot-time {
+  margin-bottom: 5px;
+}
+
+.ot-day {
+  color: #666;
+  text-transform: uppercase;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
 footer {
   padding-top: 18px;
   background-color: rgb(246, 248, 248);
@@ -39,7 +99,6 @@ footer {
 }
 
 footer a:link {
-  color: rgb(99, 148, 113);
   font-family: 'Crete Round', serif;
   text-transform: uppercase;
 }
@@ -71,5 +130,17 @@ footer a:link {
 @media (max-width: 992px) {
   .navbar-brand {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    margin-left: 0px !important;
   }
 }

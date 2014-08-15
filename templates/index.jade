@@ -9,18 +9,22 @@ html(lang="en")
     meta(name="description", value="")
 
     link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css")
-    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Roboto:400,500,700", type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Crete+Round', rel='stylesheet', type='text/css')
-    link(rel="stylesheet", href="/css/main.css")
+    link(href='http://fonts.googleapis.com/css?family=Crete+Round|Dosis:200,400,600,700', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="/css/animate.css")
+    link(rel="stylesheet", href="/css/newMain.css")
 
   body
-    include header
+    //- include header
 
-    include content
+    //- include content
 
-    include footer
+    //- include footer
+
+    include newHeader
+
+    include newContent
 
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
     script window.jQuery || document.write('<script src="/bower_components/jquery/dist/jquery.min.js"><\/script>')
     script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
-    script(src="/js/main.js")
+    script(src="/js/newMain.js")

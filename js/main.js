@@ -22,3 +22,35 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     $(this).collapse('hide');
   }
 });
+
+$(function() {
+
+  resizeProps();
+
+  $(window).resize(function() {
+    resizeProps();
+  });
+
+  function resizeProps() {
+    var width = $(window).width();
+
+    $('.product').each(function() {
+      if(width > 480) {
+        $(this).removeClass();
+        $(this).addClass('product');
+        $(this).addClass('col-xs-4');
+      }
+      else if(width > 320) {
+        $(this).removeClass();
+        $(this).addClass('product');
+        $(this).addClass('col-xs-6');
+      }
+      else {
+        $(this).removeClass();
+        $(this).addClass('product');
+        $(this).addClass('col-xs-12');
+      }
+    });
+  }
+
+});
