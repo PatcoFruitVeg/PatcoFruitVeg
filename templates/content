@@ -1,4 +1,4 @@
-.container.mt20.none
+.container.mt20
   .row#contact
     h2.col-md-12.text-center.title Contact Us
 
