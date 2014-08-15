@@ -1,0 +1,1 @@
+"use strict";$(function(){var a=$("#logo"),n=$("#contact");a.addClass("animated bounceIn"),n.addClass("animated fadeIn")});
