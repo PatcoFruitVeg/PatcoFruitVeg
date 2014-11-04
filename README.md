@@ -8,4 +8,4 @@ Creator:
 
 **Parin Parikh**
 - [hi@parinparikh.com](mailto:hi@parinparikh.com)
-- [www.parinparikh.com](www.parinparikh.com)
+- [www.parinparikh.com](http://www.parinparikh.com)
