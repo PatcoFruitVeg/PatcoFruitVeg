@@ -7,5 +7,5 @@ Creator:
 =============
 
 **Parin Parikh**
-- [hi@parinparikh.com](mailto:hi@parinparikh.com)
-- [www.parinparikh.com](http://www.parinparikh.com)
+- [Email](mailto:contact@parin.me)
+- [Website](http://www.parinparikh.com)
