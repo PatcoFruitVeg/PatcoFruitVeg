@@ -8,4 +8,4 @@ Creator:
 
 **Parin Parikh**
 - [Email](mailto:contact@parin.me)
-- [Website](http://www.parinparikh.com)
+- [Website](https://parin.me)
