@@ -1,1 +1,0 @@
-"use strict";$(function(){var a=$("<img>").attr("src","/img/bg.png");a.load(function(){$("body").addClass("cover"),$(".container").removeClass("none");var a=$("#logo"),n=$("#contact");a.addClass("animated bounceIn"),n.addClass("animated fadeIn")})});
